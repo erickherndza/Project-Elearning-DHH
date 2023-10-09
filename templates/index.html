@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Tu Plataforma de Educación</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <script src="{{ url_for('static', filename='js/main.js') }}"></script>
+</head>
+
+<body>
+    <div class="header">
+        <div class="logo">
+            <img src="{{ url_for('static', filename='logo.png') }}" alt="Logo">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#">Inicio</a></li>
+                <li><a href="#">Sobre</a></li>
+                <li><a href="#">Servicios</a></li>
+                <li><a href="#">Contactar</a></li>
+            </ul>
+        </nav>
+        <h1>Bienvenido a la plataforma de educación</h1>
+        <div class="footer">
+            <nav>
+                <ul>
+                    <li><a href="#">Sobre</a></li>
+                    <li><a href="#">Contacto</a></li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+    <main>
+        <div class="card">
+            <h2>📚 Aprende a Leer 📚</h2>
+            <p>Diviértete aprendiendo nuevas palabras y leyendo historias emocionantes.</p>
+            <button onclick="location.href='/leer'">Comenzar</button>
+        </div>
+        <div class="card">
+            <h2>🔢 Matemáticas 🔢</h2>
+            <p>Resuelve problemas y conviértete en un genio de las matemáticas.</p>
+            <button onclick="location.href='/matematicas'">Comenzar</button>
+        </div>
+    </main>
+    <footer>
+        <p>Desarrollado con ❤️ por [Tu nombre]</p>
+    </footer>
+</body>
+
+</html>

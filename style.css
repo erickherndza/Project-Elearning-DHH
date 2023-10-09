@@ -1,0 +1,57 @@
+/* Styles for the educational platform */
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    color: white;
+    padding: 1rem;
+}
+
+background-color: #f1f1f1;
+padding: 20px;
+text-align: center;
+
+
+/* Custom color palette */
+:root {
+    --primary-color: #3498db;
+    --secondary-color: #2ecc71;
+    --text-color: #333;
+
+
+    /* Accessibility and readability for dyslexia and ADHD */
+    body {
+        font-family: 'Arial', sans-serif;
+        line-height: 1.6;
+        background-color: #f4f4f4;
+    }
+
+    card {
+        background-color: #fff;
+        border-radius: 8px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        overflow: hidden;
+        text-align: center;
+        width: 300px;
+        margin: 1rem;
+    }
+}
+}
+
+.footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+}
+
+background-color: #f1f1f1;
+padding: 10px;
+text-align: center;
+}

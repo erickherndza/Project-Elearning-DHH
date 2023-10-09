@@ -1,0 +1,54 @@
+/* Variables de color para fácil personalización */
+:root {
+    --primary-color: #007bff;
+    --secondary-color: #f1f1f1;
+    --text-color: #333;
+}
+
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: var(--text-color);
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilos de encabezado */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--primary-color);
+    color: white;
+    padding: 1rem;
+}
+
+/* Estilos de contenido principal */
+main {
+    padding: 1rem;
+    background-color: var(--secondary-color);
+}
+
+/* Estilos de tarjeta */
+.card {
+    border: 1px solid #ccc;
+    padding: 1rem;
+    margin: 1rem 0;
+}
+
+/* Estilos para dislexia y TDAH */
+.dyslexia-friendly {
+    font-family: 'Comic Sans MS', 'Arial', sans-serif;
+    line-height: 1.6;
+    background-color: #f1f1f1;
+    color: #333;
+}
+
+/* Estilos de pie de página */
+footer {
+    background-color: var(--primary-color);
+    color: white;
+    text-align: center;
+    padding: 1rem;
+}

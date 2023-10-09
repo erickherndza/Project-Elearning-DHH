@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Lección de Lectura</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            <img src="{{ url_for('static', filename='logo.png') }}" alt="Logo">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#">Inicio</a></li>
+                <li><a href="#">Sobre Nosotros</a></li>
+                <li><a href="#">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="lesson-container">
+            <h1>Lección de Lectura</h1>
+            <p>Esta lección está diseñada para mejorar la velocidad y comprensión de la lectura.</p>
+            <div class="reading-exercise">
+                <h2>Ejercicio 1: Velocidad de Lectura</h2>
+                <p>Lee el siguiente párrafo lo más rápido posible.</p>
+                <p class="reading-paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam non urna
+                    eros. Duis malesuada lectus eget sem elementum non viverra.</p>
+            </div>
+            <div class="reading-exercise">
+                <h2>Ejercicio 2: Comprensión de Lectura</h2>
+                <p>Responde las siguientes preguntas después de leer el párrafo.</p>
+                <ul>
+                    <li>¿Qué es Lorem Ipsum?</li>
+                    <li>¿Cuál es el propósito del párrafo?</li>
+                </ul>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>Desarrollado con ❤️ por [Tu nombre]</p>
+    </footer>
+</body>
+
+</html>
